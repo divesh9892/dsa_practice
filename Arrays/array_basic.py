@@ -29,9 +29,49 @@ def arrayInsert(index, value):
     return arr1
 print(arrayInsert(2,9))
 
+def arrayAppend(value):
+    arr1.append(value)
+    return arr1
+print(arrayAppend(20))
+
+def arrayExtend(value): 
+    arr1.extend(value)
+    return arr1
+print(arrayExtend(ar.array('i', [32,23,65,78])))
+
+def arrayFromList(value):
+    arr1.fromlist(value)
+    return arr1
+print(arrayFromList([88,66,55,44]))
+
+
 # deletion in array
 def arrayDelete(value):
-    arr2 = ar.array('i', [1,2,2,3,2])
-    arr2.remove(value)
-    return arr2
-print(arrayDelete(2))
+    arr1.remove(value)
+    return arr1
+print(arrayDelete(9))
+
+def arrayPop():
+    arr1.pop()
+    return arr1
+print(arrayPop())
+
+# reversing an array
+arr1.reverse()
+print(arr1)
+
+#getting array buffer information of given array
+print(arr1.buffer_info())
+
+#counting number of occurences of an element in given array
+arr1.append(2)
+print(arr1.count(2))
+
+#converting array to list
+print(arr1.tolist())
+
+#slicing of an array
+print(arr1[1:4])
+print(arr1[1:])
+print(arr1[:])
+print(arr1[:-1])
