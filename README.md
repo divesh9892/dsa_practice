@@ -3,4 +3,4 @@
 This repo contains DSA practice questions on the following:
 
 1. Recursion
-2. Coming Soon
+2. Arrays
